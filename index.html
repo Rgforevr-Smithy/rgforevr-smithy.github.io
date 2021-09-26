@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/5f6d378910.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="icons/PK icon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"/>
+    <link rel="manifest" href="icons/site.webmanifest"/>
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P|Open+Sans"/>
+    <meta name="msapplication-TileColor" content="#2b5797"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <title>Paul Kuruvila | Computer Science</title>
+</head>
+<body>
+    <script>
+        var buttonPressed = new Audio();
+        buttonPressed.src = "soundfx/button_pressed.mp3";
+        function optionClicked() {
+            buttonPressed.play();
+
+        }
+    </script>
+
+    <header style="background-color: black;width: 2543px;">
+        <div class="options">
+            <div><img src="images/Link_LoZ.gif" style="width:64px;height: 75px;"></div>
+            <div><p style="color: rgb(64, 13, 193);font-size: 50pt; font-family: Sci-Fi;">Paul Kuruvila</p></div>
+            <div>
+                <nav>
+                    <!--    <a href="https://www.github.com/paulkuruvila" target="_blank" rel="noreferrer" style="display:inline-flex; text-decoration: none;color: inherit; margin-left: 1%;"><img src="icons/PK icon.png" style="width:75px;height: 75px; margin-left: 1%;"></a>
+                    <a href="https://www.linkedin.com/in/paulkuruvila" target="_blank" rel="noreferrer" style="text-decoration: none;color: inherit;"><p style="font-size: 50px;font-family: Sci-Fi;color: limegreen;display: inline-flex;">Paul Kuruvila</p></a></div>
+                    -->
+                    <div class="nav_options">
+                        <ul>
+                            <a href="#intro" onmousedown="optionClicked()" class="list_options">Intro</a>
+                            <a href="#projects" onmousedown="optionClicked()" class="list_options">Projects</a>
+                            <a href="#about" onmousedown="optionClicked()" class="list_options">About Me</a>
+                            <a href="#contact" onmousedown="optionClicked()" class="list_options">Contact</a>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <audio src="soundfx/experiment1.mp3" autoplay loop>
+    </audio>
+<!-- Intro -->
+    <section id="intro" class="intro">
+        <div>
+            <header>
+                <h1 style="text-align: center;font-size: 60pt; font-family: Sci-Fi; color: aqua;">This is my portfolio page where you can view my list <br>
+                    of projects and learn more about me.</br></h1>
+            </header>
+        </div>
+    </section>
+<!-- Projects -->
+    <section id="projects" class="projects">
+        <div>
+            <h1 style="text-align: center;font-size: 60pt; font-family: Sci-Fi; color: rgb(0, 255, 0);">Projects</h1>
+        </div>
+    </section>
+<!-- About Me -->
+    <section id="about" class="about">
+        <div style="text-align: center;">
+            <ul style="display:inline-flex; align-items: center; justify-content:center">
+                <img src="images/Ekko_Walking.gif" style="margin-right: 50px;width:143px;height: 150px;">
+                <h1 style="text-align: center;font-size: 60pt; font-family: Sci-Fi; color: rgb(255, 0, 221);">Who is Paul Kuruvila?</h1>
+                <img src="images/Kid_Cudi.gif" style="margin-left: 50px;width:150px;height: 150px;">
+            </ul>
+        </div>
+    </section>
+<!-- Contact -->
+    <section id="contact" class="contact">
+        <div>
+            <h1 style="font-size: 60pt; font-family: Sci-Fi;text-align: center;color:limegreen;">Contact</h1>
+            <p style="margin-top: 3%; text-align: center;font-family: Sci-Fi;font-size: 15pt;">You can contact me via:</p>
+                <ul style="text-align: center;">
+                    <a href="https://www.linkedin.com/in/paulkuruvila" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" style="color:limegreen;margin-top:1%;margin-right: 2%;font-size:36px;text-shadow:1px 1px 2px #00000095"></i></a>
+                    <a href="mailto:paulrkuruvila@gmail.com"><i style="color:limegreen;font-size:36px;text-shadow:1px 1px 2px #00000095" class="w3-xxlarge fa fa-envelope"></i></a>
+                </ul>
+        </div>
+    </section>
+</body>
+</html>
