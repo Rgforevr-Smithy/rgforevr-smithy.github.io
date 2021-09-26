@@ -23,7 +23,6 @@
         buttonPressed.src = "soundfx/button_pressed.mp3";
         function optionClicked() {
             buttonPressed.play();
-
         }
     </script>
 
@@ -48,7 +47,7 @@
             </div>
         </div>
     </header>
-    <audio src="soundfx/experiment1.mp3" autoplay loop>
+    <audio style="display: flex; color:antiquewhite;background-color: black;width: 500px;" src="soundfx/experiment1.mp3" controls autoplay loop>
     </audio>
 <!-- Intro -->
     <section id="intro" class="intro">
@@ -81,8 +80,8 @@
             <h1 style="font-size: 60pt; font-family: Sci-Fi;text-align: center;color:limegreen;">Contact</h1>
             <p style="margin-top: 3%; text-align: center;font-family: Sci-Fi;font-size: 15pt;">You can contact me via:</p>
                 <ul style="text-align: center;">
-                    <a href="https://www.linkedin.com/in/paulkuruvila" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" style="color:limegreen;margin-top:1%;margin-right: 2%;font-size:36px;text-shadow:1px 1px 2px #00000095"></i></a>
-                    <a href="mailto:paulrkuruvila@gmail.com"><i style="color:limegreen;font-size:36px;text-shadow:1px 1px 2px #00000095" class="w3-xxlarge fa fa-envelope"></i></a>
+                    <a onmousedown="optionClicked()" href="https://www.linkedin.com/in/paulkuruvila" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" style="color:limegreen;margin-top:1%;margin-right: 2%;font-size:36px;text-shadow:1px 1px 2px #00000095"></i></a>
+                    <a onmousedown="optionClicked()" onmousemove="style='color:black;'" href="mailto:paulrkuruvila@gmail.com"><i style="color:limegreen;font-size:36px;text-shadow:1px 1px 2px #00000095" class="fa fa-envelope"></i></a>
                 </ul>
         </div>
     </section>
